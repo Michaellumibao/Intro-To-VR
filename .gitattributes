@@ -1,0 +1,4 @@
+Assets/Starfield[[:space:]]Skybox/Demo/Textures/Down_Tex.png filter=lfs diff=lfs merge=lfs -text
+Assets/Starfield[[:space:]]Skybox/Demo/Textures/Front_Tex.png filter=lfs diff=lfs merge=lfs -text
+Assets/Starfield[[:space:]]Skybox/Demo/Textures/Up_Tex.png filter=lfs diff=lfs merge=lfs -text
+IntroToVRScriptsAndPrefabs.unitypackage filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,215 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.0f1 (3721df5a8b28) revision 3613151'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 16313 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/micha/Desktop/Projects/Intro To VR Recordin
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57148
+Successfully changed project path to: C:/Users/micha/Desktop/Projects/Intro To VR Recordin
+C:/Users/micha/Desktop/Projects/Intro To VR Recordin
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 47.44 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 1.06 ms.
+Initialize engine version: 2020.2.0f1 (3721df5a8b28)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/micha/Desktop/Projects/Intro To VR Recordin/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 5700 XT (ID=0x731f)
+    Vendor:   
+    VRAM:     8152 MB
+    Driver:   27.20.14501.24001
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56080
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001509 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 46.16 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.477 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002256 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 47.60 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\micha\Desktop\Projects\Intro To VR Recordin\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\micha\Desktop\Projects\Intro To VR Recordin\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.854 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 2901 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.8 MB.
+System memory in use after: 128.7 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 3314.
+Total: 3.501400 ms (FindLiveObjects: 0.559900 ms CreateObjectMapping: 0.075200 ms MarkObjects: 1.802500 ms  DeleteObjects: 1.062400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Prefabs/XR Rig.prefab
+  artifactKey: Guid(d18ba10e5071b2847b7731c75ddf8a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/XR Rig.prefab using Guid(d18ba10e5071b2847b7731c75ddf8a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdc6cdd11f4235d18e6064ccc5ce179e') in 0.073768 seconds
+  Import took 0.079228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.174607 seconds.
+  path: Assets/Prefabs/ScoreManager.prefab
+  artifactKey: Guid(ec9886fa1dafc504d8efce84258001ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ScoreManager.prefab using Guid(ec9886fa1dafc504d8efce84258001ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47d578540aa239ff974b9e198d801519') in 0.015167 seconds
+  Import took 0.020345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.580297 seconds.
+  path: Assets/Starfield Skybox/Demo/Textures
+  artifactKey: Guid(a1ac2873c4eb8d64db33d7df8acb9188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Starfield Skybox/Demo/Textures using Guid(a1ac2873c4eb8d64db33d7df8acb9188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45cb28c08c9c08ef09a22ec6e5642516') in 0.006399 seconds
+  Import took 0.011709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.164026 seconds.
+  path: Assets/Starfield Skybox/Demo/Textures/Down_Tex.png
+  artifactKey: Guid(a3b2b45ab4da8b343ad09a56207d3910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Starfield Skybox/Demo/Textures/Down_Tex.png using Guid(a3b2b45ab4da8b343ad09a56207d3910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68fc583bc682afd7c8cae1234031a8ab') in 0.326384 seconds
+  Import took 0.331481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034503 seconds.
+  path: Assets/Starfield Skybox
+  artifactKey: Guid(e7ad84cb79df6d64f98e84602436ed73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Starfield Skybox using Guid(e7ad84cb79df6d64f98e84602436ed73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f452d8bca17a941afb3827bf423a4697') in 0.006637 seconds
+  Import took 0.011416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052664 seconds.
+  path: Assets/Starfield Skybox/Demo/Textures/Back_Tex.png
+  artifactKey: Guid(b692a498a0379a341872703d288b04af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Starfield Skybox/Demo/Textures/Back_Tex.png using Guid(b692a498a0379a341872703d288b04af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e31f9ede6a5e2202ee76b33a1d89f596') in 0.159024 seconds
+  Import took 0.164657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011516 seconds.
+  path: Assets/Starfield Skybox/Demo
+  artifactKey: Guid(7a4470ba344bcbb44bb67e3c01170b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Starfield Skybox/Demo using Guid(7a4470ba344bcbb44bb67e3c01170b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6057ffc65c79a199bc31366ac9d67d5') in 0.004533 seconds
+  Import took 0.009097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014103 seconds.
+  path: Assets/Scripts/SimpleCameraController.cs
+  artifactKey: Guid(be76e5f14cfee674cb30b491fb72b09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SimpleCameraController.cs using Guid(be76e5f14cfee674cb30b491fb72b09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bcd8d7e76ca03102c66ef7f6370d23d') in 0.008540 seconds
+  Import took 0.013175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009160 seconds.
+  path: Assets/3DModels/Materials
+  artifactKey: Guid(ef18a5ab827d20546a964942928a12a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/Materials using Guid(ef18a5ab827d20546a964942928a12a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cca9f86a8692a7a081790d36750c1c5') in 0.005426 seconds
+  Import took 0.009923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.125440 seconds.
+  path: Assets/Starfield Skybox/Demo/Textures/Right_Tex.png
+  artifactKey: Guid(411c36f0804e8c248a3f6470ca50cd85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Starfield Skybox/Demo/Textures/Right_Tex.png using Guid(411c36f0804e8c248a3f6470ca50cd85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4e52a972634d430ea8c576f68c7be57') in 0.159962 seconds
+  Import took 0.165858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013949 seconds.
+  path: Assets/3DModels/Materials/canadaGoose.mat
+  artifactKey: Guid(d3b4f9cb63364074c8feb952829f8a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/Materials/canadaGoose.mat using Guid(d3b4f9cb63364074c8feb952829f8a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55237e4cc2b06b7f04bf8bd417e388c0') in 0.285667 seconds
+  Import took 0.291554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013538 seconds.
+  path: Assets/Materials/New Material 1.mat
+  artifactKey: Guid(11be3a4de3875b445a3e91df32547099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material 1.mat using Guid(11be3a4de3875b445a3e91df32547099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '259f4a1a51f9ecadc9840bc7421debc6') in 0.016909 seconds
+  Import took 0.021920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.060805 seconds.
+  path: Assets/Starfield Skybox/Demo/Textures/Left_Tex.png
+  artifactKey: Guid(80f1020b68f9b794994187bf41ba9d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Starfield Skybox/Demo/Textures/Left_Tex.png using Guid(80f1020b68f9b794994187bf41ba9d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef8232e9189390512755cc1b9ead48e') in 0.146688 seconds
+  Import took 0.152161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053059 seconds.
+  path: Assets/Starfield Skybox/Demo/Textures/Up_Tex.png
+  artifactKey: Guid(8313f24c5bda59240aabef5e6c46f9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Starfield Skybox/Demo/Textures/Up_Tex.png using Guid(8313f24c5bda59240aabef5e6c46f9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c569580c6c078f3d0c4118ac799ab88e') in 0.143060 seconds
+  Import took 0.148469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019606 seconds.
+  path: Assets/Materials/canadaGoose.mat
+  artifactKey: Guid(29d35b2ac9240784dafba0983276b70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/canadaGoose.mat using Guid(29d35b2ac9240784dafba0983276b70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c9e1749c8b401dbaea0b93da606bcb6') in 0.013097 seconds
+  Import took 0.017663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.060287 seconds.
+  path: Assets/Starfield Skybox/Demo/Textures/Front_Tex.png
+  artifactKey: Guid(a5e005e6ff4298340b2ff009a5991908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Starfield Skybox/Demo/Textures/Front_Tex.png using Guid(a5e005e6ff4298340b2ff009a5991908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c02f273ac5247ee3c9b2ead71af770ba') in 0.151190 seconds
+  Import took 0.156436 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
